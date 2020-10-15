@@ -1,0 +1,352 @@
+body {
+    background-color: rgb(243, 205, 38);
+}
+.navbar-default {
+    background-color: rgb(243, 205, 38);
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+    text-decoration: none;
+    color: black;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: black;
+}
+.navbar-default .navbar-nav>li {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+.form-button {
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.form-button:hover {
+    color: white;
+}
+.nav {
+    padding-right: 3vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+.logo1 img {
+    height: 60px;
+    padding-top: 10px;
+}
+.logo1 {
+    margin-left: 50px;
+}
+.respo {
+    background-color: black;
+}
+.respo .navbar-nav >li>a {
+    color: white !important;
+}
+.respo ul {
+    display: none;
+}
+.modal-content {
+    background-color: rgb(243, 205, 38) !important;
+}
+.modal h1 {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    font-weight: bold;
+}
+.modal-body {
+    padding-bottom: 30vh;
+}
+.dropdown-menu {
+    width: 100%;
+}
+::placeholder {
+    font-style: italic;
+}
+.dropdown-menu li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.dropdown-menu li>a {
+    font-weight: bold;
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-footer {
+    text-align: center !important;
+    border-top: none;
+    background-color: black;
+    color: white;
+}
+.modal-footer p {
+    margin: 0;
+}
+.header1 {
+    background-image: url(proektimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header-img {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+.header-img h1 {
+    font-size: 53px;
+    color: white;
+    font-weight: bolder;
+}
+.student-btn {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 3vh 2vh;
+}
+.student-btn:hover {
+    background-color: rgb(138, 10, 10);
+    color: black;
+}
+.student-btn p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+.thumbnail {
+    border-radius: 10px;
+    width: 30%;
+    padding: 0px 0px 10px 0px;
+    height: 430px;
+}
+.thumbnail:hover {
+    -ms-transform: scale(0.4);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.thumbnail img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.thumbnail button a {
+    color: white;
+}
+.thumbnail button a:hover {
+    text-decoration: none;
+}
+.caption span {
+    border-radius: 0;
+    background-color: rgb(241, 200, 16);
+    color: black;
+    padding: 7px;
+}
+.main1 {
+    padding-top: 40px;
+    
+}
+.main1 h1 {
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    background-color: rgb(243, 205, 38);
+}
+.caption h3 {
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+.caption p:first-of-type {
+    font-size: 15px;
+    color: black;
+}
+.date {
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+.caption button {
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 13px;
+}
+.button1 button {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 20px 20px 7px 20px;
+    color: white;
+    background-color: black;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.button1 {
+    width: 33.33%;
+}
+.kopce p {
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+.kopce:hover {
+    background-color: rgb(121, 4, 4);
+    color: black;
+}
+.form-button1 {
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+}
+/* -------------------------Curtain Menu-------------------------------------------- */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,1);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+  
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: left;
+
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    top: -15px;
+    right: 28px;
+    font-size: 60px;
+}
+  
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+}
+/* --------------------------------Curtain Menu--------------------------------------------- */ 
+/* ----------------------------------Filters---------------------------------------- */
+.category_item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: bolder;
+    background-color: #302F37;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+  }
+  .category_item i {
+    display: none;
+  }
+  .active i {
+    display: block;
+    margin-right: 20px;
+  }
+  .active {
+    background-color: #EB3B3B;
+    color: #363635;
+  }
+  .category_item:not(:last-child) {
+    border-right: 1px solid white;
+  }
+
+
+  #loadMore {
+    width: 200px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: blue;
+    transition: .3s;
+  }
+  #loadMore:hover {
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    text-decoration: none;
+  }
+  .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }
+  #loadMore {
+    display: none;
+  }
+
+  @media only screen and (max-width:991px) {
+    .thumbnail {
+        width: 45%;
+    }
+    .main {
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .thumbnail {
+        width: 100%;
+    }
+    .main {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .button1 {
+        width: 100%;
+    }
+    .buttons {
+        flex-wrap: wrap;
+    }
+    .content{
+        display: none;
+    }
+    #loadMore {
+     display: block;
+    }
+}
+
